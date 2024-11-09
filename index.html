@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portal de Estatísticas de Futebol</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- FontAwesome for icons -->
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Futebol Stats</h1>
+            </div>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#ranking">Ranking</a></li>
+                <li><a href="#jogadores">Jogadores</a></li>
+                <li><a href="#comentarios">Comentários</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Página Inicial -->
+    <section id="home" class="section-home">
+        <div class="container">
+            <h2>Últimos Jogos e Resultados</h2>
+            <div class="resultado">
+                <div class="jogo">
+                    <h3>Time A vs Time B</h3>
+                    <p><strong>Resultado:</strong> 3-1</p>
+                    <p><strong>Gols:</strong> Jogador 1 (2), Jogador 2 (1)</p>
+                </div>
+                <div class="jogo">
+                    <h3>Time C vs Time D</h3>
+                    <p><strong>Resultado:</strong> 0-0</p>
+                    <p><strong>Gols:</strong> Nenhum</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ranking de Times -->
+    <section id="ranking" class="section-ranking">
+        <div class="container">
+            <h2>Ranking de Times</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Posição</th>
+                        <th>Time</th>
+                        <th>Jogos</th>
+                        <th>Vitórias</th>
+                        <th>Empates</th>
+                        <th>Derrotas</th>
+                        <th>Pontos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Time A</td>
+                        <td>10</td>
+                        <td>8</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>26</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Time B</td>
+                        <td>10</td>
+                        <td>7</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>23</td>
+                    </tr>
+                    <!-- Add more rows as necessary -->
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Estatísticas de Jogadores -->
+    <section id="jogadores" class="section-jogadores">
+        <div class="container">
+            <h2>Estatísticas de Jogadores</h2>
+            <div class="jogador">
+                <h3>Jogador 1</h3>
+                <p><strong>Gols:</strong> 10</p>
+                <p><strong>Assistências:</strong> 5</p>
+                <p><strong>Minutos Jogados:</strong> 900</p>
+            </div>
+            <div class="jogador">
+                <h3>Jogador 2</h3>
+                <p><strong>Gols:</strong> 7</p>
+                <p><strong>Assistências:</strong> 4</p>
+                <p><strong>Minutos Jogados:</strong> 800</p>
+            </div>
+            <!-- Add more players as necessary -->
+        </div>
+    </section>
+
+    <!-- Sistema de Comentários -->
+    <section id="comentarios" class="section-comentarios">
+        <div class="container">
+            <h2>Comentários</h2>
+            <div class="comentario">
+                <p><strong>Usuário 1:</strong> Ótima vitória do Time A! Merecido!</p>
+            </div>
+            <div class="comentario">
+                <p><strong>Usuário 2:</strong> O Time B precisa melhorar a defesa!</p>
+            </div>
+            <div class="comentario-form">
+                <h3>Deixe seu Comentário:</h3>
+                <textarea placeholder="Digite seu comentário aqui..."></textarea>
+                <button type="submit">Enviar Comentário</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Futebol Stats - Todos os direitos reservados</p>
+        </div>
+    </footer>
+</body>
+
+</html>
